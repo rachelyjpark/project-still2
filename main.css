@@ -1,0 +1,300 @@
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1200px;
+  height: 600px;
+  background-image: linear-gradient(#ffffff, #91a8ad);
+  margin: 30px auto;
+  position: relative;
+  z-index: -4;
+}
+
+.table {
+position: absolute;
+  top:145px;
+  left:275px;
+  z-index: -3;
+  bottom: 0;
+  width: 670px;
+  height: 455px;
+  background-color: beige;
+  transform: rotate(130deg);
+    transform: skew(-46deg);
+  }
+
+.pumpkin {
+    position: absolute;
+    left: 150px;
+    top: 350px;
+      width: 300px;
+      height: 250px;
+      background-color: #df6616;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    }
+ .pumpkinneck {
+    position: absolute;
+    left: 238px;
+    top:315px;
+      width: 0px;
+      height:0 px;
+      border-left: 62px solid transparent;
+      border-right: 62px solid transparent;
+      border-bottom: 60px solid #df6616;
+}
+.pumpkintop {
+  position: absolute;
+      left: 280px;
+      top: 295px;
+      width: 25px;
+      z-index: 3;
+      height: 25px;
+      background: #cc9966;
+      border-radius: 30% 60% 50% 30% / 50% 60% 30% 20%;
+}
+.pumpkinstem {
+      position: absolute;
+    left: 271px;
+    top: 310px;
+      width: 60px;
+      height: 76px;
+      background-color: #df6616;
+      border-radius: 30% 40% 20% 30% / 60% 60% 10% 20%;
+}
+
+.vase {
+  position: absolute;
+  border-radius: 7px;
+  width: 10%;
+  height: 65%;
+  z-index: 0;
+  top: %;
+  left: 38%;
+  opacity: 0.4;
+     filter: drop-shadow(0 0 20px #333);
+   border-radius: 0% 0% 40% 30% / 0% 0% 40% 30%;
+     background-image: linear-gradient(#e6e6e6, #1a1a1a);
+  
+}
+
+.vasehold {
+  position: absolute;
+  border-radius: 100px;
+  width: 8%;
+  height: 12%;
+  z-index: 0;
+  top: 64%;
+  left: 38.5%;
+  opacity: 0.4;
+    border-radius: 40% 30% 0% 0% / 100% 100% 0% 0%;
+        background-image: linear-gradient(#1a1a1a,#e6e6e6 );
+
+}
+.stem1 {
+  position: absolute;
+  background:#446600;
+  border-radius: 8px;
+  width: .60%;
+  height: 62%;
+  z-index: 2;
+  top: 0%;
+  left: 45%;
+}
+
+.stem2 {
+  position: absolute;
+  background: #666633;
+  border-radius: 8px;
+  width: .60%;
+  height: 64%;
+  z-index: 2;
+  top: 0%;
+  left: 43%;
+  transform: rotate(3deg);
+}
+
+.stem3 {
+  position: absolute;
+  background: #446600;
+  border-radius: 8px;
+  width: .60%;
+  height: 63%;
+  z-index: 2;
+  top: 0%;
+  left: 40%;
+  transform: rotate(-3deg);
+
+}
+
+.stem4{
+  position: absolute;
+  background: #666633;
+  border-radius: 8px;
+  width: .60%;
+  height: 64%;
+  z-index: 2;
+  top: 0%;
+  left: 42%;
+  transform: rotate(6deg);
+}
+
+.stem5 {
+  position: absolute;
+  background:#446600;
+  border-radius: 8px;
+  width: .60%;
+  height: 62%;
+  z-index: 2;
+  top: 0%;
+  left: 43%;
+  transform: rotate(-3deg);
+}
+.stem6 {
+  position: absolute;
+  background: #666633;
+  border-radius: 8px;
+  width: .60%;
+  height: 60%;
+  z-index: 2;
+  top: 0%;
+  left: 41%;
+  transform: rotate(-2deg);
+}
+.stem7 {
+  position: absolute;
+  background: #446600;
+  border-radius: 8px;
+  width: .60%;
+  height: 60%;
+  z-index: 2;
+  top: 0%;
+  left: 45.5%;
+  transform: rotate(5deg);
+}
+.stem8 {
+  position: absolute;
+  background: #666633;
+  border-radius: 8px;
+  width: .60%;
+  height: 70%;
+  z-index: 2;
+  top: 0%;
+  left: 45%;
+  transform: rotate(-3deg);
+}
+.pot {
+    position: absolute;
+    left: 580px;
+    top: 150px;
+      width: 200px;
+      height: 160px;
+      border-radius: 100px / 70px;
+   background-image: linear-gradient(#996633, #331100);
+    }
+
+   .potlid {
+      position: absolute;
+    left: 590px;
+    top: 140px;
+      width: 180px;
+      height: 38px;
+      border-radius: 200px / 50px;
+      background-image: linear-gradient(#996633, #331100);
+   
+    }
+    .potbutton {
+      position: absolute;
+      left: 672px;
+      top: 130px;
+      width: 20px;
+      height: 20px;
+      background: #392613;
+      border-radius: 50%;
+   
+    }
+.melon {
+  position: absolute;
+  left: 640px;
+  top: 260px;
+      width: 180px;
+      height: 220px;
+   background-image: linear-gradient( to right, #a08e42,#ffea97);
+  border-radius: 65% 65% 60% 60% / 40% 40% 60% 60%;
+      transform: rotate(-35deg);
+}
+.melonspots {
+    position: absolute;
+  left: 740px;
+  top: 360px;
+      width: 13px;
+      height: 15px;
+       background: #8e743d;
+       opacity: 0.3;
+  border-radius: 65% 65% 60% 60% / 40% 40% 60% 60%;
+      transform: rotate(-35deg);
+      transform: skew(10deg);
+     
+}
+.melonspots2 {
+      position: absolute;
+  left: 705px;
+  top: 400px;
+      width: 18px;
+      height: 20px;
+       background: #755d28;
+       opacity: 0.3;
+  border-radius: 65% 65% 60% 60% / 40% 40% 60% 60%;
+      transform: rotate(-35deg);
+      transform: skew(-10deg);
+}
+.melonspots3 {
+        position: absolute;
+  left: 758px;
+  top: 394px;
+      width: 16px;
+      height: 13px;
+       background: #7b5f37;
+       opacity: 0.3;
+  border-radius: 65% 65% 60% 60% / 40% 40% 60% 60%;
+      transform: rotate(-35deg);
+      transform: skew(10deg);
+}
+.melonspots4{
+         position: absolute;
+  left: 730px;
+  top: 430px;
+      width: 22px;
+      height: 25px;
+       background: #5a472a;
+       opacity: 0.3;
+  border-radius: 65% 65% 60% 60% / 40% 40% 60% 60%;
+      transform: rotate(-35deg);
+      transform: skew(10deg);
+}
+.melonspots5{
+        position: absolute;
+  left: 770px;
+  top: 360px;
+      width: 14px;
+      height: 17px;
+       background: #bd953f;
+       opacity: 0.3;
+  border-radius: 65% 65% 60% 60% / 40% 40% 60% 60%;
+      transform: rotate(5deg);
+      transform: skew(15deg);
+}
+.melonspots6{
+          position: absolute;
+  left: 665px;
+  top: 390px;
+      width: 16px;
+      height: 17px;
+       background: #483825;
+       opacity: 0.3;
+  border-radius: 65% 65% 60% 60% / 40% 40% 60% 60%;
+      transform: skew(-16deg);
+}
+
+
+
